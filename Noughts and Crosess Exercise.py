@@ -9,9 +9,11 @@ print(" _|_|_ \n _|_|_ \n  | | ")
 r1=[" _","|","_","|","_"]
 r2=[" _","|","_","|","_"]
 r3=[" _","|","_","|","_"]
+
 print(r1)
 print(r2)
 print(r3)
+
 player_o = int(input("Player o, enter your first o: "))
 if player_o == 1 :
     r1[0] = "o"
@@ -426,12 +428,12 @@ elif player_o == 7 :
     print(r3)
 elif player_o == 8 :
     r3[2] = "o"
-    print(r1)
-    print(r2)
-    print(r3)
+    
 elif player_o == 9 :
     r3[4] = "o"
     print(r1)
     print(r2)
     print(r3)
-    
+  
+elif player_o in r1[1], in r2[4], in r3[7] :
+    print("Player o has WON!!!")
