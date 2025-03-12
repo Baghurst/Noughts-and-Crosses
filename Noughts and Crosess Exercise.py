@@ -436,5 +436,9 @@ elif player_o == 9 :
     print(r3)
 
 #X_ = [r1[1], r2[4], r3[7]]
-elif player_o = r1[1], in r2[4], in r3[7] :
-    print("Player o has WON!!!")
+'''elif player_o = r1[1], in r2[4], in r3[7] :
+    print("Player o has WON!!!")'''
+
+
+
+
